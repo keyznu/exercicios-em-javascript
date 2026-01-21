@@ -31,7 +31,42 @@
 // let media = 4;
 // console.log("média: " + (nota1+nota2+nota3+nota4/media))
 
-// questão 6
-let celcius = 25
-let fah = (celcius * 9/5) + 32;
-console.log(fah);
+// // questão 6
+// let celcius = 25
+// let fah = (celcius * 9/5) + 32;
+// console.log(fah);
+
+// questão 7
+// let resultado = 15 % 4;
+// console.log(resultado)
+
+// questão 8
+// let pro = 55;
+// let des = 15;
+// console.log(pro * des / 100)
+
+// questão 9
+// let int = 5;
+// let ant = int -1;
+// let suc = int +1;
+// console.log(ant)
+// console.log(int)
+// console.log(suc)
+
+// questão 10
+// let peso = 54;
+// let altura = 158;
+// let imc = peso*altura/2
+// console.log(imc)
+
+// questão 11
+// let number = 10;
+// let number2 = "10";
+// let resultado = (number===number2);
+// console.log(resultado)
+
+// questão 12 inc.
+let age1 = 19;
+if (age >= 18) {
+    console.log ("Maior ou igual a 18 anos");
+}
