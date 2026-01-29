@@ -66,7 +66,17 @@
 // console.log(resultado)
 
 // questão 12 inc.
-let age1 = 19;
-if (age >= 18) {
-    console.log ("Maior ou igual a 18 anos");
+// let age1 = 19;
+// if (age >= 18) {
+//     console.log ("Maior ou igual a 18 anos");
+// }
+
+// 21. Script para ver se a pessoa pode votar.Script
+let idade = 19;
+if(idade > 18 && idade < 70){
+    console.log("A pessoa pode votar");
 }
+else{
+    console.log("A pessoa não pode votar");
+}
+   
