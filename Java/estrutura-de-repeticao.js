@@ -61,7 +61,7 @@
 //    resultado += "*";
 // }console.log(resultado)
 
-// ATIVIDADE WHILE
+// ATIVIDADE - WHILE
 // Questão 11: Contador de 1 e para em 10 
 // let contador = 0;
 // while(contador < 11){
@@ -106,6 +106,17 @@
 // }
 // let media = soma/5;
 // console.log("Média:", media);
+// ou
+// while (true){
+//     let num1 = 60;
+//     let num2 = 55;
+//     let num3 = 1;
+//     let num4 = 11;
+//     let num5 = 7;
+//     media = (num1 + num2 + num3 + num4 + num5) / 2;
+//     break;
+// }
+// console.log(media)
 
 // Questão 15: Use um loop para encontrar o primeiro múltiplo de 7 maior que 50
 // let num = 51;
@@ -118,7 +129,7 @@
 // let num =  1;
 // while(num !== 5){
 //     console.log("Número atual:", num);
-//     num++;
+//     num++; 
 // }
 // console.log("Saiu 5!");
 
@@ -146,9 +157,18 @@
 // }
 
 // Questão 20: Imprimir "Olá Mundo! uma única vez usando uma condição que já comece como falsa
-let num = 1;
-while(num > 0){
-    if(num !== 2);
-        console.log("Olá Mundo");
-        break;
-}
+// let num = 1;
+// while(num > 0){
+//     if(num !== 2);
+//         console.log("Olá Mundo");
+//         break;
+// }
+// correção
+// let cond = false;
+// while(!cond){
+//     console.log("Olá Mundo");
+//     cond = true;
+// }
+
+// ATIVIDADE - DO...WHILE
+// Questão 21: Peça para o usuário digitar a senha "123". Continue pedindo até que ele acerte
