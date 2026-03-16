@@ -1,3 +1,9 @@
+// Questão 1: 
+// function saudarCliente(nome){
+// return `Olá ${nome}, seja bem-vindo á nossa confeitaria!`;
+// }
+// alert(saudarCliente(pompt("Informe o seu nome: ")));
+
 // Questão 2: Calculadora de Bolo - Crie uma função que receba o preço do quilo de um bolo e o peso solicitado.
 // A função deve retornar o valor total a ser pago.
 // function calcularValorBolo(precoQuilo, peso) {
@@ -59,3 +65,6 @@
 
 // Questão 8: Filtro de texto - Crie uma arrow function que receba uma string e
 // retorne a mesma string em letras maiusculas (Use toUpperCase.)
+// const FiltroTexto = (texto) => texto.toUpperCase();
+// let mensagem = prompt("Informe uma palavra: ");
+// alert(FiltroTexto(mensagem));
