@@ -53,11 +53,37 @@
 // alert(animais);
 
 // Questão 11: Use um laço for para percorrer um vetor de idades e imprimir cada uma delas.
+// let idades = [10, 11, 15, 60, 73, 44, 50];
+// for (let i = idades.length - 1; i >= 0; i--){
+//     console.log(idades[i])
+// }
 
 // Questão 12: Crie um vetor de preços e use um loop para somar todos os valores contidos neles.
+// let precos = [10.99, 20.99, 65.0, 33.33, 55];
+// let res2 = 0.0;
+// for (let i = 0; i <precos.length - 1; i++){
+//     res2 += precos[i];
+// }
 
 // Questão 13: Dado um vetor de nomes, use um loop para contar quantos nomes possuem mais de 5 letras.
+// let nomes = ["Gabriel", "Pedro", "Paulo", "Ana", "Beatriz"];
+// let count = 0;
+// for (let i = 0; i < nomes.length - 1; i++){
+//     if (nomes[i].length > 5){
+
+//     }
+// }
 
 // Questão 14: Percorra um vetor de números e imprima apenas os valores que forem maiores que 50.
+// let vNum = [10,55,30,60,51,45,40];
+// for (let i = 0 < vNum.length)
+
 
 // Questão 15: Crie um scipt que identifique o maior valor dentro de um vetor de números inteiros.
+// let vINT = [10,20,30,50,100,110,140,132,153];
+// let nTemp = vINT[0];
+// for (let i = 0; i < vINT.length; i++){
+//     if(vINT[i > nTemp]){
+//         nTemp = vINT[i];
+//     }
+// }
